@@ -1,0 +1,48 @@
+#title {
+    -fx-font-size: 26;
+    -fx-background-color: white;
+    -fx-padding: 10px 50px 10px 50px;
+    -fx-background-radius: 10px;
+    -fx-font-family: Tahoma Verdana sans-serif;
+    -fx-font-weight: bold;
+}
+.gameBt {
+    -fx-background-color: rgb(189,154,122);
+    -fx-border-radius: 0px;
+    -fx-background-radius: 0px;
+    -fx-border-color: black;
+}
+.gameBt:hover {
+    -fx-background-color: rgb(251, 205, 163);
+}
+.gameBt:pressed {
+    -fx-background-color: rgb(189,154,122);
+}
+#gameGrid {
+    -fx-background-color: rgb(189,154,122);
+    -fx-border-color: black;
+    -fx-border-width: 0.5px 0px 0.5px 0px;
+    -fx-padding: 10px 0px 10px 0px;
+    -fx-font-family: Tahoma Verdana sans-serif;
+    -fx-font-size: 20px;
+}
+#reset {
+    -fx-background-radius: 0px;
+    -fx-background-color: rgb(78, 64, 50);
+    -fx-effect: dropshadow( gaussian, rgb(112, 92, 72), 0, 0, 4, 4);
+    -fx-text-fill: white;
+    -fx-font-family: Tahoma Verdana sans-serif;
+    -fx-font-size: 20px;
+}
+#reset:hover {
+    -fx-background-color: rgb(251, 207, 162);
+    -fx-text-fill: black;
+}
+#reset:pressed {
+    -fx-background-color: rgb(255, 255, 255);
+    -fx-text-fill: black;
+}
+#textTurn {
+    -fx-font-family: Tahoma Verdana sans-serif;
+    -fx-font-size: 20px;
+}
